@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    text-align: center;
+    width: 100%;
+    max-width: 1440px;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+.swiper {
+    width: 720px;
+    height: 363px;
+    margin-left: 62px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container-left {
+    width: 100%;
+    background-image: url(./assets/background-image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.container-right {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.content {
+    margin-top: 96px;
+    margin-left: 70px;
+}
+
+.header-right {
+    width: 65%;
+    text-align: left;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 130%;
+}
+
+.content-p {
+    margin: 0;
+    margin-top: 10px;
+    text-align: left;
+    font-size: 16px;
+    line-height: 160%;
+    width: 75%;
+    margin-bottom: 25px;
+}
+
+.btn {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    left: 70px;
+}
+.swiper-slide img{
+    width: 230px;
+    margin-right: 10px;
+    height: 310px;
+}
